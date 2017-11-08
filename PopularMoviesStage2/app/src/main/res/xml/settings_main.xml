@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_activity_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_orderby_defaultvalue"
+        android:entries="@array/settings_orderby_labels"
+        android:entryValues="@array/settings_orderby_values"
+        android:key="@string/settings_orderby_key"
+        android:title="@string/settings_orderby_label" />
+</PreferenceScreen>
